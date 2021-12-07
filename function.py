@@ -15,7 +15,7 @@ def build_car(colour,kind, **car_info):
     car_info["Color"] = colour
     car_info["Twopackage"] = kind
     return car_info
-"""inputing the arguments"""
+"""inputing the arguments inside"""
 car_profile = build_car("Blue","True",Manufacture='Udeme', Model="Slam4")
 
 print(car_profile)
